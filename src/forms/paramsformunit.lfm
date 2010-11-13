@@ -1,0 +1,82 @@
+object ParamsForm: TParamsForm
+  Left = 411
+  Height = 400
+  Top = 242
+  Width = 500
+  Caption = 'ParamsForm'
+  ClientHeight = 400
+  ClientWidth = 500
+  FormStyle = fsStayOnTop
+  LCLVersion = '0.9.29'
+  object TreeView1: TTreeView
+    Left = 10
+    Height = 334
+    Top = 10
+    Width = 180
+    Align = alLeft
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 10
+    BorderSpacing.Bottom = 10
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    OnChange = TreeView1Change
+    OnSelectionChanged = TreeView1SelectionChanged
+    Items.Data = {
+      F9FFFFFF020002000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000
+      00000010000000D09ED181D0BDD0BED0B2D0BDD18BD0B5FFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFF00000000000000000008000000D091D0B0D0B7D0B0
+    }
+  end
+  object Splitter1: TSplitter
+    Left = 190
+    Height = 348
+    Top = 0
+    Width = 5
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 40
+    Top = 354
+    Width = 488
+    OKButton.Name = 'OKButton'
+    OKButton.Caption = '&ОК'
+    OKButton.OnClick = OKButtonClick
+    HelpButton.Name = 'HelpButton'
+    HelpButton.Caption = '&Справка'
+    CloseButton.Name = 'CloseButton'
+    CloseButton.Caption = '&Закрыть'
+    CancelButton.Name = 'CancelButton'
+    CancelButton.Caption = 'Отмена'
+    CancelButton.OnClick = CancelButtonClick
+    TabOrder = 2
+  end
+  object StringGrid1: TStringGrid
+    Left = 195
+    Height = 334
+    Top = 10
+    Width = 295
+    Align = alClient
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
+    ColCount = 2
+    Columns = <    
+      item
+        Alignment = taRightJustify
+        ReadOnly = True
+        Title.Alignment = taLeftJustify
+        Title.Caption = 'Параметр'
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Значение'
+      end>
+    DefaultColWidth = 140
+    DefaultRowHeight = 22
+    FixedCols = 0
+    Flat = True
+    Options = [goFixedVertLine, goVertLine, goHorzLine, goColSizing, goEditing, goAlwaysShowEditor, goDblClickAutoSize, goSmoothScroll]
+    TabOrder = 3
+    TitleStyle = tsNative
+  end
+end

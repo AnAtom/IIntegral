@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="ExctnSystm">
+      <short>Исполнительная система</short>
+      <element name="TexcSystem">
+        <short>Объект исполнительной системы</short>
+      </element>
+      <element name="TexcJob">
+        <short>Базовый объект задания</short>
+      </element>
+      <element name="TexcJob.jbOwnr">
+        <short>Родитель, создавший это задание</short>
+      </element>
+      <element name="TexcScript">
+        <short>Выполняющийся скрипт</short>
+      </element>
+      <element name="TexcTask">
+        <short>Вычислительная задача</short>
+      </element>
+      <element name="TexcProcss">
+        <short>Непрерывный процесс</short>
+      </element>
+      <element name="TexcTimeProcss">
+        <short>Процесс реального времени</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

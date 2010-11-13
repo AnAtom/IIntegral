@@ -1,0 +1,91 @@
+object GVeditForm: TGVeditForm
+  Left = 28
+  Height = 365
+  Top = 140
+  Width = 471
+  ActiveControl = Panel1
+  Caption = 'GVeditForm'
+  ClientHeight = 365
+  ClientWidth = 471
+  LCLVersion = '0.9.29'
+  object ScrollBox1: TScrollBox
+    Left = 272
+    Height = 168
+    Top = 176
+    Width = 176
+    HorzScrollBar.Increment = 5
+    HorzScrollBar.Page = 200
+    HorzScrollBar.Range = 100
+    VertScrollBar.Increment = 5
+    VertScrollBar.Page = 200
+    VertScrollBar.Range = 100
+    AutoScroll = False
+    ClientHeight = 166
+    ClientWidth = 174
+    TabOrder = 0
+    object PaintBox1: TPaintBox
+      Left = 5
+      Height = 156
+      Top = 5
+      Width = 164
+      Align = alClient
+      BorderSpacing.Around = 5
+    end
+  end
+  object VislSchemeEditor1: TVislSchemeEditor
+    Left = 8
+    Height = 188
+    Top = 176
+    Width = 248
+    ShowGrid = False
+  end
+  object Panel1: TPanel
+    Left = 8
+    Height = 50
+    Top = 40
+    Width = 168
+    Caption = 'Panel1'
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 64
+    Top = 96
+    Width = 168
+    Caption = 'GroupBox1'
+    TabOrder = 2
+  end
+  object VislSchemeView1: TVislSchemeView
+    Left = 216
+    Height = 112
+    Top = 40
+    Width = 106
+  end
+  object ToolBar1: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 471
+    Caption = 'ToolBar1'
+    TabOrder = 3
+    object ToolButton1: TToolButton
+      Left = 1
+      Top = 2
+      Caption = 'ToolButton1'
+    end
+    object ToolButton2: TToolButton
+      Left = 24
+      Top = 2
+      Caption = 'ToolButton2'
+    end
+    object ToolButton3: TToolButton
+      Left = 47
+      Top = 2
+      Caption = 'ToolButton3'
+    end
+  end
+  object ActionList1: TActionList
+    left = 352
+    top = 57
+  end
+end

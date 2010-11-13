@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="IIntegral">
+      <element name="IIntegralConfig">
+        <short>Основная конфигурация среды</short>
+      </element>
+      <element name="SystemLog">
+        <short>Журнал событий</short>
+      </element>
+      <element name="ReferenceDB">
+        <short>Справочники</short>
+      </element>
+      <element name="ProjectDB">
+        <short>База данных проекта</short>
+      </element>
+      <element name="ExecutionSystem">
+        <short>Исполняющая система</short>
+      </element>
+      <short>Среда автоматизированного проектирования и исследования посредством математических моделей</short>
+    </module>
+  </package>
+</fpdoc-descriptions>

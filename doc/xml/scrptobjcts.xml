@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="ScrptObjcts">
+      <short>Объекты для задания алгоритмов</short>
+      <element name="TScriptAction">
+        <short>Некоторое действие</short>
+      </element>
+      <element name="TScrptCodeBlock">
+        <short>Последовательность действий</short>
+      </element>
+      <element name="TCndtnScrptActn">
+        <short>Условное ветвление</short>
+      </element>
+      <element name="TLoopScrptActn">
+        <short>Циклическое действие</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

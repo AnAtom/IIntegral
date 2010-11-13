@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="LogViewFormUnit">
+      <element name="LogViewForm">
+        <short>Окно просмотра журнала событий</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

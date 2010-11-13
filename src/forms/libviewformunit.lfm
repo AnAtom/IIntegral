@@ -1,0 +1,164 @@
+object LibViewForm: TLibViewForm
+  Left = 279
+  Height = 363
+  Top = 59
+  Width = 505
+  ActiveControl = LibDBNavigator
+  Caption = 'LibViewForm'
+  ClientHeight = 363
+  ClientWidth = 505
+  LCLVersion = '0.9.29'
+  object LibViewStatusBar: TStatusBar
+    Left = 0
+    Height = 24
+    Top = 339
+    Width = 505
+    AutoHint = True
+    Panels = <>
+    SimpleText = 'Таблицы справочника'
+  end
+  object LibDBPageControl: TPageControl
+    Left = 0
+    Height = 315
+    Top = 24
+    Width = 505
+    ActivePage = TabSheet
+    Align = alClient
+    ParentFont = False
+    TabIndex = 0
+    TabOrder = 1
+    OnChange = LibDBPageControlChange
+    Options = [nboHidePageListPopup]
+    object TabSheet: TTabSheet
+      Caption = 'Tab&Sheet'
+      ClientHeight = 279
+      ClientWidth = 499
+      object RxDBGrid1: TRxDBGrid
+        Left = 0
+        Height = 279
+        Top = 0
+        Width = 499
+        TitleButtons = False
+        AutoSort = True
+        KeyStrokes = <        
+          item
+            Command = rxgcShowFindDlg
+            ShortCut = 16454
+            Enabled = True
+          end        
+          item
+            Command = rxgcShowColumnsDlg
+            ShortCut = 16471
+            Enabled = True
+          end        
+          item
+            Command = rxgcShowFilterDlg
+            ShortCut = 16468
+            Enabled = True
+          end        
+          item
+            Command = rxgcShowSortDlg
+            ShortCut = 16467
+            Enabled = True
+          end        
+          item
+            Command = rxgcShowQuickFilter
+            ShortCut = 16465
+            Enabled = True
+          end        
+          item
+            Command = rxgcHideQuickFilter
+            ShortCut = 16456
+            Enabled = True
+          end>
+        OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind, rdgAllowQuickFilter]
+        FooterColor = clYellow
+        Align = alClient
+        FocusColor = clRed
+        SelectedColor = clHighlight
+        GridLineStyle = psSolid
+        Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+        ParentColor = False
+        TabOrder = 0
+      end
+    end
+  end
+  object LibViewToolBar: TToolBar
+    Left = 0
+    Height = 24
+    Top = 0
+    Width = 505
+    AutoSize = True
+    Caption = 'LibViewToolBar'
+    Flat = False
+    TabOrder = 2
+    object LibDBNavigator: TDBNavigator
+      Left = 275
+      Height = 22
+      Top = 2
+      Width = 230
+      Align = alRight
+      AutoSize = True
+      BevelOuter = bvNone
+      ChildSizing.EnlargeHorizontal = crsScaleChilds
+      ChildSizing.EnlargeVertical = crsScaleChilds
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 100
+      ClientHeight = 22
+      ClientWidth = 230
+      DataSource = Datasource_refDB
+      TabOrder = 0
+    end
+    object ToolButton1: TToolButton
+      Left = 1
+      Top = 2
+      Action = Action1
+    end
+  end
+  object LibViewActionList: TActionList
+    left = 64
+    top = 184
+    object Action1: TAction
+      Caption = 'Action1'
+    end
+  end
+  object Datasource_refDB: TDatasource
+    DataSet = Sqlite3Dataset_refDB
+    left = 128
+    top = 112
+  end
+  object Sqlite3Dataset_refDB: TSqlite3Dataset
+    AutoIncrementKey = True
+    FileName = 'refbase.db3'
+    TableName = 'test'
+    FieldDefs = <    
+      item
+        Name = 'ttID'
+        DataType = ftInteger
+        Precision = -1
+        Size = 0
+      end    
+      item
+        Name = 'ttVars'
+        DataType = ftString
+        Precision = -1
+        Size = 20
+      end    
+      item
+        Name = 'ttList'
+        DataType = ftString
+        Precision = -1
+        Size = 60
+      end    
+      item
+        Name = 'ttDesc'
+        DataType = ftMemo
+        Precision = -1
+        Size = 0
+      end>
+    left = 120
+    top = 56
+  end
+end

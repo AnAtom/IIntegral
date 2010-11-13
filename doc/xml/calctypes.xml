@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="CalcTypes">
+      <element name="s2n">
+        <short>Преобразование строкового значения в имя элемента</short>
+      </element>
+      <element name="b2s">
+        <short>Преобразование логического в строковое значение</short>
+      </element>
+      <element name="i2s">
+        <short>Преобразование целого в строковое значение</short>
+      </element>
+      <element name="h2s">
+        <short>Преобразование целого в строковое значение в шестнадцатеричном виде</short>
+      </element>
+      <element name="r2s">
+        <short>Преобразование действительного в строковое значение</short>
+      </element>
+      <element name="c2s">
+        <short>Преобразование комплексного в строковое значение</short>
+      </element>
+      <element name="TclcActionStatus">
+        <short>Статус выполнения вычисления</short>
+        <descr>caClear - без замечаний
+caError - ошибочно
+caWarning - с замечаниями
+caCancel - было прервано</descr>
+      </element>
+      <element name="TclcVarState">
+        <short>Статус вычисляемого элемента</short>
+        <descr>vsUndefined - не определен
+vsNotCalculated - не вычислялся
+vsErrorCalc - невозможно вычислить</descr>
+      </element>
+      <element name="TclcIndex">
+        <short>Тип для индекса элемента массива</short>
+      </element>
+      <element name="int2idx">
+        <short>Преобразование целого значения в индекс элемента</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="CalcObjcts">
+      <short>Объекты для вычислений</short>
+      <element name="TGeneralExpression">
+        <short>Базовый объект для всех элементов применяемых в вычислениях</short>
+      </element>
+      <element name="TBinOperation">
+        <short>Общее определение действия над двумя операндами</short>
+      </element>
+      <element name="TMultiOperation">
+        <short>Базовое определение однотипного действия над набором операндов</short>
+      </element>
+      <element name="TGeneralFunction">
+        <short>Базовое определение вычислительной функции от группы операндов</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

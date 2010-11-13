@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="LibViewFormUnit">
+      <element name="LibViewForm">
+        <short>Окно просмотра справочных таблиц</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

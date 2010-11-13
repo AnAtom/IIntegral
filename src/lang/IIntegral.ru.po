@@ -1,0 +1,465 @@
+#
+# AnAtom <prodg@ya.ru>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: IIntegral 2.0 alpha\n"
+"Last-Translator: AnAtom <prodg@ya.ru>\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-10-23 04:23+0400\n"
+"Plural-Forms: koi\n"
+"Language-Team: RU <prodg@narod.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"X-Poedit-Language: Russian\n"
+
+#: iintgrlbasedefs.attridfldname
+msgid "aID"
+msgstr "aID"
+
+#: iintgrlbasedefs.attrnamefldname
+msgid "aNazvan"
+msgstr "aNazvan"
+
+#: iintgrlbasedefs.attrnotnfldname
+msgid "aObozn"
+msgstr "aObozn"
+
+#: iintgrlbasedefs.attrquanttfldname
+msgid "aQuantt"
+msgstr "aQuantt"
+
+#: iintgrlbasedefs.attrtblname
+msgid "Svoystva"
+msgstr "Svoystva"
+
+#: iintgrlbasedefs.attrunitfldname
+msgid "aEdIzm"
+msgstr "aEdIzm"
+
+#: iintgrlbasedefs.cfgdfltcntxt
+msgid "Absolute"
+msgstr "Absolute"
+
+#: iintgrlbasedefs.elmntidfldname
+msgid "elID"
+msgstr "elID"
+
+#: iintgrlbasedefs.elmntmdfctnfldname
+msgid "elVersion"
+msgstr "elVersion"
+
+#: iintgrlbasedefs.elmntmdftimefldname
+msgid "elTime"
+msgstr "elTime"
+
+#: iintgrlbasedefs.elmntnamefldname
+msgid "elName"
+msgstr "elName"
+
+#: iintgrlbasedefs.elmntownerfldname
+msgid "elOwner"
+msgstr "elOwner"
+
+#: iintgrlbasedefs.elmntsourcefldname
+msgid "elSource"
+msgstr "elSource"
+
+#: iintgrlbasedefs.elmntstatefldname
+msgid "elState"
+msgstr "elState"
+
+#: iintgrlbasedefs.elmnttblname
+msgid "Element"
+msgstr "Element"
+
+#: iintgrlbasedefs.elmnttypefldname
+msgid "elType"
+msgstr "elType"
+
+#: iintgrlbasedefs.elmntvaluefldname
+msgid "elValueString"
+msgstr "elValueString"
+
+#: iintgrlbasedefs.projectdbname
+msgid "prjdata.db3"
+msgstr "prjdata.db3"
+
+#: iintgrlbasedefs.quanttengnamefldname
+msgid "qName"
+msgstr "qName"
+
+#: iintgrlbasedefs.quanttidfldname
+msgid "qID"
+msgstr "qID"
+
+#: iintgrlbasedefs.quanttnamefldname
+msgid "qNazvan"
+msgstr "qNazvan"
+
+#: iintgrlbasedefs.quantttblname
+msgid "Velichin"
+msgstr "Velichin"
+
+#: iintgrlbasedefs.quanttunitfldname
+msgid "qEdIzm"
+msgstr "qEdIzm"
+
+#: iintgrlbasedefs.referencedbname
+msgid "refbase.db3"
+msgstr "refbase.db3"
+
+#: iintgrlbasedefs.runlogname
+msgctxt "iintgrlbasedefs.runlogname"
+msgid "iintegral.log"
+msgstr "iintegral.log"
+
+#: iintgrlbasedefs.substnctblname
+msgid "Veschestv"
+msgstr "Veschestv"
+
+#: iintgrlbasedefs.unitbasicfldname
+msgid "uOsnovn"
+msgstr "uOsnovn"
+
+#: iintgrlbasedefs.unitconvfldname
+msgid "uPreobr"
+msgstr "uPreobr"
+
+#: iintgrlbasedefs.unitengnamefldname
+msgid "uName"
+msgstr "uName"
+
+#: iintgrlbasedefs.unitidfldname
+msgid "uID"
+msgstr "uID"
+
+#: iintgrlbasedefs.unitnamefldname
+msgid "uNazvan"
+msgstr "uNazvan"
+
+#: iintgrlbasedefs.unitnotnfldname
+msgid "uObozn"
+msgstr "uObozn"
+
+#: iintgrlbasedefs.unitquanfldname
+msgid "uQuantt"
+msgstr "uQuantt"
+
+#: iintgrlbasedefs.unittblname
+msgid "EdIzmer"
+msgstr "EdIzmer"
+
+#: TDATAVIEWFORM.DATAVIEWFORM.CAPTION
+msgid "DataViewForm"
+msgstr "База данных"
+
+#: TDATAVIEWFORM.TOOLBAR1.CAPTION
+msgctxt "TDATAVIEWFORM.TOOLBAR1.CAPTION"
+msgid "ToolBar1"
+msgstr "Инструменты"
+
+#: TDATAVIEWFORM.TOOLBUTTON1.CAPTION
+msgctxt "TDATAVIEWFORM.TOOLBUTTON1.CAPTION"
+msgid "ToolButton1"
+msgstr "кнопа1"
+
+#: TDATAVIEWFORM.TOOLBUTTON2.CAPTION
+msgctxt "TDATAVIEWFORM.TOOLBUTTON2.CAPTION"
+msgid "ToolButton2"
+msgstr "кнопа2"
+
+#: TEXCTNSYSTMFORM.EXCTNSYSTMFORM.CAPTION
+msgid "ExctnSystmForm"
+msgstr "Исполняющая система"
+
+#: TEXCTNSYSTMFORM.TOOLBAR1.CAPTION
+msgctxt "TEXCTNSYSTMFORM.TOOLBAR1.CAPTION"
+msgid "ToolBar1"
+msgstr "Инструменты"
+
+#: TEXCTNSYSTMFORM.TOOLBUTTON1.CAPTION
+msgctxt "TEXCTNSYSTMFORM.TOOLBUTTON1.CAPTION"
+msgid "ToolButton1"
+msgstr "кнопа1"
+
+#: TGVEDITFORM.GROUPBOX1.CAPTION
+msgid "GroupBox1"
+msgstr "Все вместе"
+
+#: TGVEDITFORM.GVEDITFORM.CAPTION
+msgid "GVeditForm"
+msgstr "Структурные схемы"
+
+#: TGVEDITFORM.PANEL1.CAPTION
+msgid "Panel1"
+msgstr "панель"
+
+#: TGVEDITFORM.TOOLBAR1.CAPTION
+msgctxt "TGVEDITFORM.TOOLBAR1.CAPTION"
+msgid "ToolBar1"
+msgstr "Инструменты"
+
+#: TGVEDITFORM.TOOLBUTTON1.CAPTION
+msgctxt "TGVEDITFORM.TOOLBUTTON1.CAPTION"
+msgid "ToolButton1"
+msgstr "кнопа1"
+
+#: TGVEDITFORM.TOOLBUTTON2.CAPTION
+msgctxt "TGVEDITFORM.TOOLBUTTON2.CAPTION"
+msgid "ToolButton2"
+msgstr "кнопа2"
+
+#: TGVEDITFORM.TOOLBUTTON3.CAPTION
+msgctxt "TGVEDITFORM.TOOLBUTTON3.CAPTION"
+msgid "ToolButton3"
+msgstr "кнопа3"
+
+#: TINTEGRALMAINFORM.BUTTON1.CAPTION
+msgid "==>"
+msgstr "==>"
+
+#: TINTEGRALMAINFORM.BUTTON2.CAPTION
+msgid "<=="
+msgstr "<=="
+
+#: TINTEGRALMAINFORM.BUTTONDB.CAPTION
+msgctxt "TINTEGRALMAINFORM.BUTTONDB.CAPTION"
+msgid "База"
+msgstr "База"
+
+#: TINTEGRALMAINFORM.BUTTONGV.CAPTION
+msgctxt "TINTEGRALMAINFORM.BUTTONGV.CAPTION"
+msgid "Схема"
+msgstr "Схема"
+
+#: TINTEGRALMAINFORM.BUTTONLOG.CAPTION
+msgctxt "TINTEGRALMAINFORM.BUTTONLOG.CAPTION"
+msgid "Журнал"
+msgstr "Журнал"
+
+#: TINTEGRALMAINFORM.BUTTONTASK.CAPTION
+msgid "Задачи"
+msgstr "Задачи"
+
+#: TINTEGRALMAINFORM.EDITPARAMS1.CAPTION
+msgctxt "TINTEGRALMAINFORM.EDITPARAMS1.CAPTION"
+msgid "Параметры"
+msgstr "Параметры"
+
+#: TINTEGRALMAINFORM.EDITUNDO1.CAPTION
+msgid "Отменить"
+msgstr "Отменить"
+
+#: TINTEGRALMAINFORM.EDITUNDO1.HINT
+msgid "Возвращает последние изменения"
+msgstr "Возвращает последние изменения"
+
+#: TINTEGRALMAINFORM.FILEEXIT1.CAPTION
+msgid "Выход"
+msgstr "Выход"
+
+#: TINTEGRALMAINFORM.FILEEXIT1.HINT
+msgid "Выйти из программы"
+msgstr "Выйти из программы"
+
+#: TINTEGRALMAINFORM.FILEOPEN1.CAPTION
+msgid "О&ткрыть..."
+msgstr "О&ткрыть..."
+
+#: TINTEGRALMAINFORM.FILEOPEN1.HINT
+msgid "Открыть"
+msgstr "Открыть"
+
+#: TINTEGRALMAINFORM.INTEGRALMAINFORM.CAPTION
+msgid "INteG®All"
+msgstr "INteG®All"
+
+#: TINTEGRALMAINFORM.LABEL1.CAPTION
+msgid "Label1"
+msgstr "Label1"
+
+#: TINTEGRALMAINFORM.LABEL2.CAPTION
+msgid "Label2"
+msgstr "Label2"
+
+#: TINTEGRALMAINFORM.LABEL3.CAPTION
+msgid "Label3"
+msgstr "Label3"
+
+#: TINTEGRALMAINFORM.LABEL5.CAPTION
+msgid "Label5"
+msgstr "Label5"
+
+#: TINTEGRALMAINFORM.LABEL6.CAPTION
+msgid "Label6"
+msgstr "Label6"
+
+#: TINTEGRALMAINFORM.LABELLOGO.CAPTION
+msgid "iNteg®@L {© IntepSys}"
+msgstr "iNteg®@L {© IntepSys}"
+
+#: TINTEGRALMAINFORM.MENUITEM5.CAPTION
+msgctxt "TINTEGRALMAINFORM.MENUITEM5.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: TINTEGRALMAINFORM.MENUITEM6.CAPTION
+#| msgid "Сервис"
+msgid "Окна"
+msgstr "Окна"
+
+#: TINTEGRALMAINFORM.MENUITEM8.CAPTION
+msgctxt "TINTEGRALMAINFORM.MENUITEM8.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: TINTEGRALMAINFORM.MIEDIT.CAPTION
+msgid "Правка"
+msgstr "Правка"
+
+#: TINTEGRALMAINFORM.MIFILE.CAPTION
+msgid "Файл"
+msgstr "Файл"
+
+#: TINTEGRALMAINFORM.MISEARCH.CAPTION
+msgid "Поиск"
+msgstr "Поиск"
+
+#: TINTEGRALMAINFORM.SEARCHFIND1.CAPTION
+msgid "Найти..."
+msgstr "Найти..."
+
+#: TINTEGRALMAINFORM.SHOWEXEACTION.CAPTION
+msgid "Задания"
+msgstr "Задания"
+
+#: TINTEGRALMAINFORM.SHOWLOGACTION.CAPTION
+msgctxt "TINTEGRALMAINFORM.SHOWLOGACTION.CAPTION"
+msgid "Журнал"
+msgstr "Журнал"
+
+#: TINTEGRALMAINFORM.SHOWPRJDBACTION.CAPTION
+msgctxt "TINTEGRALMAINFORM.SHOWPRJDBACTION.CAPTION"
+msgid "База"
+msgstr "База"
+
+#: TINTEGRALMAINFORM.SHOWREFDBACTION.CAPTION
+msgctxt "TINTEGRALMAINFORM.SHOWREFDBACTION.CAPTION"
+msgid "Справочник"
+msgstr "Справочник"
+
+#: TINTEGRALMAINFORM.SHOWSCHEMEACTION.CAPTION
+msgctxt "TINTEGRALMAINFORM.SHOWSCHEMEACTION.CAPTION"
+msgid "Схема"
+msgstr "Схема"
+
+#: TINTEGRALMAINFORM.TOOLBAR1.CAPTION
+msgctxt "TINTEGRALMAINFORM.TOOLBAR1.CAPTION"
+msgid "ToolBar1"
+msgstr "Инструменты"
+
+#: TINTEGRALMAINFORM.TOOLBUTTON2.CAPTION
+msgctxt "TINTEGRALMAINFORM.TOOLBUTTON2.CAPTION"
+msgid "ToolButton2"
+msgstr "кнопа2"
+
+#: TINTEGRALMAINFORM.TOOLBUTTON3.CAPTION
+msgctxt "TINTEGRALMAINFORM.TOOLBUTTON3.CAPTION"
+msgid "ToolButton3"
+msgstr "кнопа3"
+
+#: TINTEGRALMAINFORM.TOOLBUTTON4.CAPTION
+msgctxt "TINTEGRALMAINFORM.TOOLBUTTON4.CAPTION"
+msgid "ToolButton4"
+msgstr "ToolButton4"
+
+#: TINTEGRALMAINFORM.TOOLBUTTON5.CAPTION
+msgid "ToolButton5"
+msgstr "ToolButton5"
+
+#: TLIBVIEWFORM.ACTION1.CAPTION
+msgid "Action1"
+msgstr "Action1"
+
+#: TLIBVIEWFORM.LIBVIEWFORM.CAPTION
+msgid "LibViewForm"
+msgstr "Справочники"
+
+#: TLIBVIEWFORM.LIBVIEWTOOLBAR.CAPTION
+msgid "LibViewToolBar"
+msgstr "LibViewToolBar"
+
+#: TLIBVIEWFORM.TABSHEET.CAPTION
+#| msgid "TabSheet1"
+msgctxt "TLIBVIEWFORM.TABSHEET.CAPTION"
+msgid "Tab&Sheet"
+msgstr "Tab&Sheet"
+
+#: TLOGVIEWFORM.LOGVIEWFORM.CAPTION
+#| msgid "LogViewForm"
+msgid "Log View Form"
+msgstr "Журнал событий"
+
+#: TLOGVIEWFORM.MENUITEM1.CAPTION
+msgid "On top"
+msgstr "Наверх"
+
+#: TLOGVIEWFORM.MENUITEM2.CAPTION
+msgid "Clear"
+msgstr "Очистить"
+
+#: TLOGVIEWFORM.MENUITEM3.CAPTION
+msgid "Copy"
+msgstr "Копировать"
+
+#: TLOGVIEWFORM.MENUITEM4.CAPTION
+msgid "Freez"
+msgstr "Стоп"
+
+#: TLOGVIEWFORM.MENUITEM5.CAPTION
+msgid "1 сек."
+msgstr "1 сек."
+
+#: TLOGVIEWFORM.MENUITEM6.CAPTION
+msgid "½ сек."
+msgstr "½ сек."
+
+#: TLOGVIEWFORM.MENUITEM7.CAPTION
+msgid "2 сек."
+msgstr "2 сек."
+
+#: TPARAMSFORM.CANCELBUTTON.CAPTION
+msgid "Отмена"
+msgstr "Отмена"
+
+#: TPARAMSFORM.CLOSEBUTTON.CAPTION
+msgid "&Закрыть"
+msgstr "&Закрыть"
+
+#: TPARAMSFORM.HELPBUTTON.CAPTION
+msgid "&Справка"
+msgstr "&Справка"
+
+#: TPARAMSFORM.OKBUTTON.CAPTION
+msgid "&ОК"
+msgstr "&ОК"
+
+#: TPARAMSFORM.PARAMSFORM.CAPTION
+msgid "ParamsForm"
+msgstr "Параметры"
+
+#: TPARAMSFORM.STRINGGRID1.COLUMNS[0].TGRIDCOLUMNTITLE.CAPTION
+msgid "Параметр"
+msgstr "Параметр"
+
+#: TPARAMSFORM.STRINGGRID1.COLUMNS[1].TGRIDCOLUMNTITLE.CAPTION
+msgid "Значение"
+msgstr "Значение"
+
+#: wrkspccfgrtn.runlogname
+msgctxt "wrkspccfgrtn.runlogname"
+msgid "iintegral.log"
+msgstr "iintegral.log"
+

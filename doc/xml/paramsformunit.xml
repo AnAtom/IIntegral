@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="ParamsFormUnit">
+      <element name="ParamsForm">
+        <short>Окно параметров конфигурации системы</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

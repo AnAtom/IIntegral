@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="WrkspcCfgrtn">
+      <short>Объекты предоставляющие доступ к элементам конфигурации</short>
+      <descr>Модуль содержит определения объектов для доступа к различным функциям</descr>
+      <element name="TIIntegralModule">
+        <short>Базовый объект для элементов конфигурации</short>
+        <descr>Позволяет читать конфигурацию. Инициализирует основные компоненты.</descr>
+      </element>
+      <element name="TDataMngrModule">
+        <short>Элемент конфигурации с доступом к базе данных</short>
+      </element>
+      <element name="TIntgrlCfgrtn" link="Основная конфигурация">
+        <short>Основное определение конфигурации</short>
+      </element>
+      <element name="NowItIs">
+        <short>Функция возвращает текущее время в специальном формате.</short>
+      </element>
+      <element name="WriteRunLog">
+        <short>Записывает сообщение в файл журнала</short>
+      </element>
+      <element name="WriteNowLog">
+        <short>Записывает сообщение в файл журнала с меткой времени.</short>
+      </element>
+      <element name="TDataMngrModule.NameFields">
+        <short>Список из имени поля для каждой таблицы. Это поле содержит имена элементов таблицы</short>
+      </element>
+      <element name="TDataMngrModule.TablesName">
+        <short>Список имен таблиц</short>
+      </element>
+      <topic name="Основная конфигурация"/>
+      <element name="TDataMngrModule.MaxNames">
+        <short>Максимальное число считываемых имен</short>
+        <descr>Задает максимальное колличество элементов таблицы имена которых считываются в окно просмотра справочников</descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

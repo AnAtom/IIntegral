@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="ExctnSystmFormUnit">
+      <element name="ExctnSystmForm">
+        <short>Окно просмотра состояния исполнительной системы</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

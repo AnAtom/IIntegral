@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="ReferenceObjcts">
+      <element name="TReferenceDB">
+        <short>Объекты справочников</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

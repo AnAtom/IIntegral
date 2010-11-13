@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="IIntgrlBaseDefs">
+      <short>Основные типы, константы и определения</short>
+      <element name="TinlNameType">
+        <short>Тип для имен</short>
+      </element>
+      <element name="TinlID">
+        <short>Тип для идентификаторов</short>
+      </element>
+      <element name="TinlModifctn">
+        <short>Тип для номера ревизии</short>
+      </element>
+      <element name="TinlTimeStamp">
+        <short>Тип для определения момента времени</short>
+      </element>
+      <element name="RunLogName">
+        <short>Имя файла журнала событий</short>
+      </element>
+      <element name="ReferenceDBname">
+        <short>Имя базы справочников</short>
+      </element>
+      <element name="ProjectDBname">
+        <short>Имя базы данных проекта</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

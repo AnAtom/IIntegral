@@ -1,0 +1,264 @@
+object DataViewForm: TDataViewForm
+  Left = 408
+  Height = 389
+  Top = 125
+  Width = 501
+  ActiveControl = RightPanel
+  Caption = 'DataViewForm'
+  ClientHeight = 389
+  ClientWidth = 501
+  LCLVersion = '0.9.29'
+  object TreeView1: TTreeView
+    Left = 0
+    Height = 365
+    Top = 24
+    Width = 153
+    Align = alLeft
+    AutoExpand = True
+    DefaultItemHeight = 17
+    HotTrack = True
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    ShowRoot = False
+    TabOrder = 0
+    Options = [tvoAutoExpand, tvoAutoItemHeight, tvoHideSelection, tvoHotTrack, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoToolTips, tvoThemedDraw]
+    TreeLinePenStyle = psSolid
+  end
+  object Splitter1: TSplitter
+    Left = 153
+    Height = 365
+    Top = 24
+    Width = 5
+  end
+  object RightPanel: TPanel
+    Left = 158
+    Height = 361
+    Top = 24
+    Width = 339
+    Align = alClient
+    BorderSpacing.Right = 4
+    BorderSpacing.Bottom = 4
+    BevelInner = bvRaised
+    BevelOuter = bvNone
+    ClientHeight = 361
+    ClientWidth = 339
+    TabOrder = 2
+    object ListView1: TListView
+      Left = 1
+      Height = 259
+      Top = 1
+      Width = 337
+      Align = alClient
+      BorderSpacing.Bottom = 100
+      Columns = <>
+      TabOrder = 0
+      ViewStyle = vsReport
+    end
+  end
+  object ToolBar1: TToolBar
+    Left = 0
+    Height = 24
+    Top = 0
+    Width = 501
+    AutoSize = True
+    Caption = 'ToolBar1'
+    Flat = False
+    TabOrder = 3
+    object ToolButton1: TToolButton
+      Left = 1
+      Top = 2
+      Caption = 'ToolButton1'
+    end
+    object ToolButton2: TToolButton
+      Left = 24
+      Top = 2
+      Caption = 'ToolButton2'
+    end
+  end
+  object Datasource_prjDB: TDatasource
+    left = 200
+    top = 168
+  end
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = True
+    Transaction = SQLTransaction1
+    Options = []
+    left = 64
+    top = 272
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Action = caNone
+    Database = SQLite3Connection1
+    left = 120
+    top = 272
+  end
+  object SQLQuery1: TSQLQuery
+    IndexName = 'DEFAULT_ORDER'
+    Database = SQLite3Connection1
+    Transaction = SQLTransaction1
+    ReadOnly = False
+    SQL.Strings = (
+      'select * from edizmer;'
+    )
+    Params = <>
+    left = 176
+    top = 272
+  end
+  object Sqlite3Dataset_prjDB: TSqlite3Dataset
+    AutoIncrementKey = True
+    FileName = 'prjbase.db3'
+    SQL = 'Select * from objects;'
+    TableName = 'objects'
+    FieldDefs = <>
+    left = 96
+    top = 168
+    object Sqlite3Dataset_prjDBuNazvan: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uNazvan'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBuNazvan234: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uNazvan234'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBuNazvanM: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uNazvanM'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBuObozn: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uObozn'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBuNotation: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uNotation'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBuOsnovn: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uOsnovn'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object Sqlite3Dataset_prjDBuPreobr: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uPreobr'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBuName: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uName'
+      Index = 7
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBtName: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tName'
+      Index = 8
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBtProto: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tProto'
+      Index = 9
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object Sqlite3Dataset_prjDBtMembers: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tMembers'
+      Index = 10
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+    object Sqlite3Dataset_prjDBtDesc: TMemoField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tDesc'
+      Index = 11
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      BlobType = ftBlob
+      Transliterate = False
+    end
+  end
+  object Datasource2: TDatasource
+    DataSet = SQLQuery1
+    left = 232
+    top = 272
+  end
+end

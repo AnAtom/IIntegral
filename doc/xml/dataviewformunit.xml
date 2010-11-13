@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<fpdoc-descriptions>
+  <package name="IIntegral">
+    <module name="DataViewFormUnit">
+      <element name="DataViewForm">
+        <short>Окно просмотра базы данных проекта</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>
